@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">StuffSycle exchange loop</title><desc id="desc">A five-step marketplace flow from listing an item through physical handover.</desc>
+  <rect width="1600" height="700" fill="#F7F7FB"/>
+  <style>text{font-family:Arial,sans-serif}.eyebrow{font-size:18px;font-weight:700;letter-spacing:1.5px;fill:#6558E8}.title{font-size:56px;font-weight:700;fill:#17171D}.sub{font-size:24px;fill:#666672}.step{font-size:25px;font-weight:700;fill:#17171D}.note{font-size:18px;fill:#666672}.num{font-size:18px;font-weight:700;fill:#6558E8}.card{fill:#FFFFFF;stroke:#DEDEE8;stroke-width:2}.active{fill:#EEECFF;stroke:#7467EF;stroke-width:2}.line{stroke:#7467EF;stroke-width:5;fill:none}</style>
+  <text x="100" y="90" class="eyebrow">STUFFSYCLE · CORE PRODUCT LOOP</text>
+  <text x="100" y="160" class="title">The product ends at handover — not at “message sent.”</text>
+  <text x="100" y="205" class="sub">Discovery, trust and coordination stay inside one continuous student exchange.</text>
+  <rect x="80" y="315" width="250" height="180" rx="28" class="card"/><text x="115" y="360" class="num">01</text><text x="115" y="410" class="step">List</text><text x="115" y="450" class="note">Photo · condition · price</text>
+  <rect x="375" y="315" width="250" height="180" rx="28" class="card"/><text x="410" y="360" class="num">02</text><text x="410" y="410" class="step">Discover</text><text x="410" y="450" class="note">Search · filter · compare</text>
+  <rect x="670" y="315" width="250" height="180" rx="28" class="active"/><text x="705" y="360" class="num">03</text><text x="705" y="410" class="step">Message</text><text x="705" y="450" class="note">Item-linked conversation</text>
+  <rect x="965" y="315" width="250" height="180" rx="28" class="card"/><text x="1000" y="360" class="num">04</text><text x="1000" y="410" class="step">Agree</text><text x="1000" y="450" class="note">Price · place · time</text>
+  <rect x="1260" y="315" width="250" height="180" rx="28" class="active"/><text x="1295" y="360" class="num">05</text><text x="1295" y="410" class="step">Hand over</text><text x="1295" y="450" class="note">Complete the exchange</text>
+  <path d="M330 405H375M625 405H670M920 405H965M1215 405H1260" class="line"/>
+  <path d="M355 390l20 15-20 15M650 390l20 15-20 15M945 390l20 15-20 15M1240 390l20 15-20 15" class="line"/>
+  <text x="100" y="610" class="sub">Bounded university identity reduces uncertainty before the first conversation.</text>
+  <text x="1355" y="635" class="eyebrow">@GEORGYPEVCHIKH</text>
+</svg>
