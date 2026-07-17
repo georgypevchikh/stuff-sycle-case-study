@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">StuffSycle system architecture</title><desc id="desc">A React marketplace deployed on Vercel and connected to Supabase authentication, Postgres, Storage and Realtime.</desc>
+  <rect width="1600" height="900" fill="#F7F7FB"/>
+  <style>text{font-family:Arial,sans-serif}.eyebrow{font-size:18px;font-weight:700;letter-spacing:1.5px;fill:#6558E8}.title{font-size:56px;font-weight:700;fill:#17171D}.sub{font-size:24px;fill:#666672}.h{font-size:27px;font-weight:700;fill:#17171D}.p{font-size:20px;fill:#666672}.card{fill:#FFFFFF;stroke:#DEDEE8;stroke-width:2}.accent{fill:#EEECFF;stroke:#7467EF;stroke-width:2}.line{stroke:#7467EF;stroke-width:5;fill:none}</style>
+  <text x="100" y="95" class="eyebrow">STUFFSYCLE · SHIPPED SYSTEM</text>
+  <text x="100" y="165" class="title">One marketplace. Four managed backend capabilities.</text>
+  <text x="100" y="210" class="sub">The architecture keeps identity, relational data, media and live communication separate.</text>
+  <rect x="90" y="350" width="280" height="240" rx="28" class="card"/><text x="130" y="420" class="h">Student browser</text><text x="130" y="465" class="p">Discovery</text><text x="130" y="500" class="p">Selling</text><text x="130" y="535" class="p">Messaging</text>
+  <rect x="535" y="315" width="360" height="310" rx="28" class="accent"/><text x="580" y="390" class="h">React 18 + TypeScript</text><text x="580" y="435" class="p">React Router domains</text><text x="580" y="470" class="p">React Hook Form flows</text><text x="580" y="505" class="p">Tailwind component system</text><text x="580" y="540" class="p">Vite build → Vercel</text>
+  <rect x="1060" y="280" width="430" height="380" rx="28" class="card"/><text x="1105" y="350" class="h">Supabase managed backend</text>
+  <rect x="1105" y="390" width="150" height="90" rx="20" class="accent"/><text x="1140" y="445" class="h" style="font-size:22px">Auth</text>
+  <rect x="1280" y="390" width="165" height="90" rx="20" class="accent"/><text x="1315" y="430" class="h" style="font-size:22px">Postgres</text><text x="1315" y="458" class="p" style="font-size:16px">ownership model</text>
+  <rect x="1105" y="510" width="150" height="90" rx="20" class="accent"/><text x="1132" y="565" class="h" style="font-size:22px">Storage</text>
+  <rect x="1280" y="510" width="165" height="90" rx="20" class="accent"/><text x="1315" y="565" class="h" style="font-size:22px">Realtime</text>
+  <path d="M370 470H535M895 470H1060" class="line"/><path d="M515 455l20 15-20 15M1040 455l20 15-20 15" class="line"/>
+  <text x="100" y="760" class="h">Route boundaries mirror product intentions:</text><text x="100" y="805" class="sub">access · discovery · selling · communication · identity · support · administration</text>
+  <text x="1355" y="835" class="eyebrow">@GEORGYPEVCHIKH</text>
+</svg>

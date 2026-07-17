@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">StuffSycle AI-assisted delivery system</title><desc id="desc">A delivery chain from research and decisions in Obsidian through Linear, Figma Make, Cursor and Claude Code to Git, Supabase and Vercel.</desc>
+  <rect width="1600" height="900" fill="#F7F7FB"/>
+  <style>text{font-family:Arial,sans-serif}.eyebrow{font-size:18px;font-weight:700;letter-spacing:1.5px;fill:#6558E8}.title{font-size:56px;font-weight:700;fill:#17171D}.sub{font-size:24px;fill:#666672}.h{font-size:24px;font-weight:700;fill:#17171D}.p{font-size:18px;fill:#666672}.card{fill:#FFFFFF;stroke:#DEDEE8;stroke-width:2}.accent{fill:#EEECFF;stroke:#7467EF;stroke-width:2}.line{stroke:#7467EF;stroke-width:5;fill:none}.dash{stroke:#9B94ED;stroke-width:3;stroke-dasharray:10 10;fill:none}</style>
+  <text x="100" y="95" class="eyebrow">STUFFSYCLE · AI-ASSISTED DELIVERY SYSTEM</text>
+  <text x="100" y="155" class="title">AI accelerated execution.</text>
+  <text x="100" y="215" class="title">Product judgment stayed human-owned.</text>
+  <text x="100" y="260" class="sub">Each tool had one source-of-truth responsibility instead of sharing one giant chat context.</text>
+  <rect x="65" y="355" width="205" height="160" rx="24" class="card"/><text x="95" y="405" class="h">Obsidian</text><text x="95" y="445" class="p">Research</text><text x="95" y="475" class="p">Decisions · context</text>
+  <rect x="325" y="355" width="205" height="160" rx="24" class="card"/><text x="355" y="405" class="h">Linear</text><text x="355" y="445" class="p">Bounded tasks</text><text x="355" y="475" class="p">Milestones · scope</text>
+  <rect x="585" y="355" width="205" height="160" rx="24" class="card"/><text x="615" y="405" class="h">Figma Make</text><text x="615" y="445" class="p">Interface start</text><text x="615" y="475" class="p">Visual exploration</text>
+  <rect x="845" y="325" width="250" height="220" rx="24" class="accent"/><text x="880" y="385" class="h">Cursor + Claude</text><text x="880" y="430" class="p">Integration</text><text x="880" y="465" class="p">Debugging · refactoring</text><text x="880" y="500" class="p">Repository-aware execution</text>
+  <rect x="1150" y="355" width="180" height="160" rx="24" class="card"/><text x="1180" y="405" class="h">Git</text><text x="1180" y="445" class="p">Executable truth</text><text x="1180" y="475" class="p">Change history</text>
+  <rect x="1385" y="325" width="160" height="220" rx="24" class="accent"/><text x="1410" y="385" class="h">Release</text><text x="1410" y="430" class="p">Supabase</text><text x="1410" y="465" class="p">Vercel</text><text x="1410" y="500" class="p">Public product</text>
+  <path d="M270 435H325M530 435H585M790 435H845M1095 435H1150M1330 435H1385" class="line"/>
+  <path d="M305 420l20 15-20 15M565 420l20 15-20 15M825 420l20 15-20 15M1130 420l20 15-20 15M1365 420l20 15-20 15" class="line"/>
+  <path d="M165 550C165 690 970 690 970 565" class="dash"/>
+  <text x="420" y="735" class="h">Durable context returns to implementation sessions</text>
+  <text x="100" y="815" class="sub">Human-owned: research thesis · scope · architecture · acceptance judgment · release decision</text>
+  <text x="1355" y="835" class="eyebrow">@GEORGYPEVCHIKH</text>
+</svg>
