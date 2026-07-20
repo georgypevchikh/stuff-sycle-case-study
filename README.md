@@ -164,44 +164,6 @@ Supabase reduced infrastructure overhead while retaining real relational modelin
 
 [Read the full product and UX case](docs/product-and-ux.md)
 
-## AI-assisted delivery system
-
-![StuffSycle AI-assisted delivery workflow](assets/diagrams/delivery-system.svg)
-
-StuffSycle was not produced by a single prompt or a single tool. Each part of the workflow had a distinct responsibility:
-
-| Tool | Source-of-truth responsibility |
-|---|---|
-| **Obsidian** | Research, product thesis, journeys, architecture, decisions and durable project context |
-| **Linear** | Bounded implementation tasks, milestones and scope |
-| **Figma Make** | Initial interface generation and visual exploration |
-| **Cursor** | Primary repository workspace, integration, debugging and deployment control |
-| **Claude Code** | Repository-aware implementation, refactoring, review and documentation |
-| **Git** | Executable code state and change history |
-| **Supabase** | Persistent authentication, database, media and Realtime behavior |
-| **Vercel** | Production hosting and public delivery |
-
-### Human-owned
-
-- research question and product thesis;
-- scope and prioritization;
-- role model, user journeys and information architecture;
-- trust model and system boundaries;
-- interface direction and acceptance judgment;
-- final integration and release decision.
-
-### AI-assisted
-
-- interface acceleration;
-- bounded implementation work;
-- codebase navigation and repetitive changes;
-- debugging hypotheses and refactoring support;
-- technical documentation drafting.
-
-Generated output was treated as material to integrate, inspect and verify — never as the product authority.
-
-[Read the detailed delivery workflow](docs/delivery-workflow.md)
-
 ## Evidence and claim boundaries
 
 This is a public engineering and product case study, not a public source repository. The application source remains private; the shipped result and supporting evidence are deliberately inspectable.
@@ -231,7 +193,6 @@ The original product walkthrough is 4 minutes 3 seconds. Its 274 MB source is no
 │   └── screenshots/                   Frames from the shipped product walkthrough
 ├── docs/
 │   ├── architecture.md                Runtime, routes, data and trade-offs
-│   ├── delivery-workflow.md           Human + AI toolchain and ownership model
 │   ├── evidence.md                    Proof matrix and explicit claim boundaries
 │   ├── product-and-ux.md              Research, flows and interface principles
 │   └── StuffSycle-bachelor-project.pdf 43-page academic project
