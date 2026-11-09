@@ -6,10 +6,10 @@
 
 **Research → product strategy → UX/UI → system architecture → implementation → deployment**
 
-[![Live Product](https://img.shields.io/badge/Live_product-Open-6558E8?style=for-the-badge)](https://stuff-sycle-web-4.vercel.app/)
+[![Live Product](https://img.shields.io/badge/Live_product-Open-6558E8?style=for-the-badge)](https://stuff-sycle-web-4.vercel.app/catalog)
 [![Bachelor Project](https://img.shields.io/badge/Bachelor_project-43_pages-17171D?style=for-the-badge)](docs/StuffSycle-bachelor-project.pdf)
 [![React](https://img.shields.io/badge/React_18-TypeScript-149ECA?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-[![Supabase](https://img.shields.io/badge/Supabase-Auth_·_Postgres_·_Storage_·_Realtime-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Auth_·_Postgres_·_Storage-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-111111?style=for-the-badge&logo=vercel)](https://stuff-sycle-web-4.vercel.app/)
 
 **Designed and built independently by [Georgy Pevchikh](https://github.com/georgypevchikh).**
@@ -24,12 +24,12 @@ StuffSycle is a working marketplace where university students can list, discover
 
 | | |
 |---|---|
-| **Status** | Shipped and publicly deployed |
+| **Status** | Shipped and publicly deployed as a bachelor project. Guests can browse the catalog; catalog content, messaging and reviews run on demo data. |
 | **Role** | Product Designer + Full-Stack Developer |
 | **Scope** | Research, product definition, UX/UI, architecture, implementation, backend integration and deployment |
-| **Context** | Bachelor project, European Humanities University, Vilnius, 2026 |
-| **Product** | [Open the live application](https://stuff-sycle-web-4.vercel.app/) |
-| **Research** | [Read the 43-page bachelor project](docs/StuffSycle-bachelor-project.pdf) |
+| **Context** | Bachelor project, European Humanities University, Vilnius, 2026 — graded with the highest mark |
+| **Product** | [Open the live application](https://stuff-sycle-web-4.vercel.app/catalog) |
+| **Research** | 30+ participants · [Read the 43-page bachelor project](docs/StuffSycle-bachelor-project.pdf) |
 
 ## The actual design problem
 
@@ -52,8 +52,8 @@ The product response combines three decisions:
 | Access and trust | Authentication, account creation and a university-oriented community model |
 | Discovery | Searchable catalog, filters, sorting, categories, favorites and listing detail |
 | Selling | Image handling, listing creation, validation, publication and seller management |
-| Communication | Item-linked conversation list, direct messaging, notifications and Realtime updates |
-| Identity | Profiles, listings, reviews, purchase history and sales views |
+| Communication | Item-linked conversation list, direct messaging and notifications — designed and prototyped on demo data |
+| Identity | Profiles and listings; reviews, purchase history and sales views prototyped on demo data |
 | Support | FAQ, safety information, contact flow and live support surface |
 | Operations | Administration surface for users and marketplace content |
 | Interface system | Responsive layouts, dark/light themes, reusable components and motion feedback |
@@ -109,9 +109,8 @@ Listing creation treats photos, metadata, validation and publication as one tran
 ### Backend layer
 
 - **Supabase Auth** for identity and sessions.
-- **PostgreSQL** for profiles, categories, listings, images, chats and messages.
+- **PostgreSQL** for profiles and listings, with Row-Level Security; chats and messages are modeled in the thesis and prototyped on demo data.
 - **Supabase Storage** for listing media outside relational records.
-- **Supabase Realtime** for live messaging updates.
 - Ownership and participation rules designed close to the data boundary.
 
 ### Delivery layer
@@ -142,7 +141,7 @@ This separation matters operationally:
 - image lifecycle does not overload listing metadata;
 - a chat cannot lose the item that created it;
 - seller ownership and conversation participation are explicit relations;
-- Realtime accelerates communication without replacing Postgres as the source of truth.
+- live messaging (planned: Supabase Realtime) would accelerate communication without replacing Postgres as the source of truth.
 
 ## Product and UX decisions
 
